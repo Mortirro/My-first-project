@@ -1,0 +1,39 @@
+body {
+	font-family:arial;
+	background: url('images/background.png');
+	}
+#container{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+#container .item-list{
+  display: inline-block;
+  margin: 15px 4px;
+  }
+  #container .item-list img{
+  vertical-align:bottom;
+}
+#container .bottom{
+  background: #f1f6f2;
+  padding: 10px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+#container .bag{
+  font-size: 10pt;
+  height: 50px;
+  display: block;
+  color: #6a76a8;
+}
+
+#container .prise{
+  font-size: 22pt;
+  font-weight:bolder;
+  
+}
+
+#container .currency{
+  font-size: 14pt;
+  font-weight:bolder;
+  
+}
