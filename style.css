@@ -14,16 +14,21 @@ body {
 }
 .item::after {
 	content: "";
-	position:absolute;;
-	/*align: bottom;*/
-	width: 100px; /* Ширина  */
+	position:absolute;
+	left: 50%;
+	bottom:0;
+	margin-left: -50px;
+	width: 205px;
 	height:100px;
   background: #e0e0e0;
   border: solid 0px #fff;
 	border-radius:20em/5em;
 	box-shadow:-8px 5px 10px 2px rgba(0,0,0, 0.1);
 }
-
+.item-inner {
+	position: relative;
+	background-color: red;
+}
 .item img{
 vertical-align:bottom;
 border: 0px solid black;
