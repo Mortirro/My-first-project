@@ -1,39 +1,46 @@
 body {
 	font-family:arial;
-	background: url('images/background.png');
+	/*background: url('images/background.png');*/
 	}
 #container{
   width: 960px;
   margin: 0 auto;
   text-align: center;
 }
-#container .item-list{
+#container .item{
   display: inline-block;
-  margin: 15px 4px;
-  }
-  #container .item-list img{
-  vertical-align:bottom;
+	margin: 10px 4px;
 }
-#container .bottom{
-  background: #f1f6f2;
-  padding: 10px;
-  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+#container .item img{
+vertical-align:bottom;
+border: 0px solid black;
+border-bottom: 0;
+border-radius: 15px 15px 0 0;
 }
-#container .bag{
-  font-size: 10pt;
-  height: 50px;
-  display: block;
-  color: #6a76a8;
+#container .footer{
+background: #f1f6f2;
+padding: 10px;
+border: 0px solid black;
+border-top: 0px solid black;
+border-radius: 0 0 15px 15px;
+box-shadow:-8px 5px 10px 2px rgba(0,0,0, 0.1);
 }
-
-#container .prise{
+#container .name{
+font-size: 10pt;
+height: 50px;
+display: block;
+color: 	#000080;
+width: 205px; /* Ширина блока */
+overflow: hidden; /* Обрезаем все, что не помещается в область */
+line-height: 1.20; /*Межстрочный интервал*/
+white-space: nowrap; /* Запрещаем перенос строк */
+text-overflow: ellipsis; /* многоточие */
+}
+#container .price{
   font-size: 22pt;
-  font-weight:bolder;
-  
+  font-weight:bold;
 }
-
 #container .currency{
   font-size: 14pt;
-  font-weight:bolder;
-  
+  font-weight:bold;
 }
