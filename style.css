@@ -22,9 +22,20 @@ background: #f1f6f2;
 padding: 10px;
 border: 0px solid black;
 border-top: 0px solid black;
-border-radius: 0 0 15px 15px;
-box-shadow:-8px 5px 10px 2px rgba(0,0,0, 0.1);
+border-radius: 0 0 15px 15px;}
+/*box-shadow:-8px 5px 10px 2px rgba(0,0,0, 0.1);*/
+
+/*span.currency:after{
+    content: "box-shadow:-8px 5px 10px 2px rgba(0,0,0, 0.1)";
+   }*/
+#Example {
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px black;
+-webkit-box-shadow: 5px 5px black;
+box-shadow: 5px 5px black;
 }
+
 #container .name{
 font-size: 10pt;
 height: 50px;
