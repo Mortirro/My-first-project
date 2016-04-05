@@ -7,17 +7,23 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-#container .item{
+.item{
   display: inline-block;
 	margin: 10px 4px;
+	position: relative;
 }
-#container .item img{
+.item::after {
+	content: "13em/3em";
+	position: absolute;
+}
+
+.item img{
 vertical-align:bottom;
 border: 0px solid black;
 border-bottom: 0;
 border-radius: 15px 15px 0 0;
 }
-#container .footer{
+.footer{
 background: #f1f6f2;
 padding: 10px;
 border: 0px solid black;
@@ -28,15 +34,7 @@ border-radius: 0 0 15px 15px;}
 /*span.currency:after{
     content: "box-shadow:-8px 5px 10px 2px rgba(0,0,0, 0.1)";
    }*/
-#Example {
--moz-border-radius: 5px;
-border-radius: 5px;
--moz-box-shadow: 5px 5px black;
--webkit-box-shadow: 5px 5px black;
-box-shadow: 5px 5px black;
-}
-
-#container .name{
+.name{
 font-size: 10pt;
 height: 50px;
 display: block;
@@ -47,11 +45,11 @@ line-height: 1.20; /*Межстрочный интервал*/
 white-space: nowrap; /* Запрещаем перенос строк */
 text-overflow: ellipsis; /* многоточие */
 }
-#container .price{
+.price{
   font-size: 22pt;
   font-weight:bold;
 }
-#container .currency{
+.currency{
   font-size: 14pt;
   font-weight:bold;
 }
