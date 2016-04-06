@@ -24,18 +24,17 @@ body {
 	border: solid 0px #fff;
 	border-radius:25em/5em;
 	box-shadow: 0px 5px 10px 2px rgba(0,0,0, 0.1);
-	z-index: 1;
+ 	z-index: 1;
 }
 .item-inner {
-/*position: relative;*/
+position: relative;
+z-index: 2;
 }
 .item img{
 vertical-align:bottom;
 border: 0px solid black;
 border-bottom: 0;
 border-radius: 15px 15px 0 0;
-position: relative;
-	z-index: 2;
 }
 .footer{
 background: #f1f6f2;
@@ -44,7 +43,7 @@ border: 0px solid black;
 border-top: 0px solid black;
 border-radius: 0 0 15px 15px;
 position: relative;
-	z-index: 2;
+/*z-index: 2;*/
 }
 .name{
 font-size: 10pt;
