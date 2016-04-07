@@ -1,5 +1,9 @@
+
+
+}
+
 body {
-	font-family:arial;
+	/*font-family:arial;*/
 	background: url('images/background.png');
 	}
 #container{
@@ -46,7 +50,16 @@ position: relative;
 /*z-index: 2;*/
 }
 .name{
-font-size: 10pt;
+	font-family: 'robotoregular';
+	src: url('roboto-webfont.eot');
+	src: url('roboto-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('roboto-webfont.woff2') format('woff2'),
+			 url('roboto-webfont.woff') format('woff'),
+			 url('roboto-webfont.ttf') format('truetype'),
+			 url('roboto-webfont.svg#robotoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+font-size: 18pt;
 height: 40px;
 display: block;
 color: 	#000080;
@@ -57,10 +70,13 @@ white-space: nowrap; /* Запрещаем перенос строк */
 text-overflow: ellipsis; /* многоточие */
 }
 .price{
-  font-size: 22pt;
+	font-family:
+	font-size: 50pt;
   font-weight:bold;
 }
 .currency{
-  font-size: 14pt;
+
+  font-size: 30pt;
+	/*src: url(fonts/PF Agora Sans Pro Black.ttf)*/
   font-weight:bold;
 }
