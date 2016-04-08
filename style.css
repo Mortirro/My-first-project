@@ -16,9 +16,10 @@
 	position: relative;
 }
 .image-box{
-	height: 250px;
-	width: 250px;
-		z-index: 2;
+	height: 225px;
+	overflow: hidden;
+	border-radius: 10px 10px 0 0;
+	background-color: #fff;
 }
 .item::after {
 	content: "";
@@ -54,16 +55,14 @@
 	position: relative;
 }
 .name{
-	/*font-family: 'robotoregular';*/
-	font-size: 18px;
-	height: 40px;
+	height: 50px;
 	display: block;
-	color: 	#000080;
 	width: 205px; /* Ширина */
 	overflow: hidden; /* Обрезаем все, что не помещается в область */
-	line-height: 21pt; /*Межстрочный интервал*/
-	white-space: nowrap; /* Запрещаем перенос строк */
-	/*text-overflow: ellipsis;*/ /* многоточие */
+	/*font-family: 'robotoregular';*/
+	font-size: 18px;
+	line-height: 2.2; /*Межстрочный интервал*/
+	color: #000080;
 }
 .price{
 	/*font-family: 'pf_agora_sans_problack';*/
