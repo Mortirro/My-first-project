@@ -10,9 +10,15 @@
 .item{
 	width: 225px;
 	display: inline-block;
+	vertical-align: top;
 	/*height: 445px;*/
 	margin: 10px 4px;
 	position: relative;
+}
+.image-box{
+	height: 250px;
+	width: 250px;
+		z-index: 2;
 }
 .item::after {
 	content: "";
@@ -33,7 +39,7 @@
 		z-index: 2;
 }
 .item img{
-	width: 100%;
+	/*width: 100%;*/
 	vertical-align:bottom;
 	border: 0px solid black;
 	border-bottom: 0;
@@ -56,8 +62,8 @@
 	width: 205px; /* Ширина */
 	overflow: hidden; /* Обрезаем все, что не помещается в область */
 	line-height: 21pt; /*Межстрочный интервал*/
-	/*white-space: nowrap;/* /* Запрещаем перенос строк */
-	text-overflow: ellipsis; /* многоточие */
+	white-space: nowrap; /* Запрещаем перенос строк */
+	/*text-overflow: ellipsis;*/ /* многоточие */
 }
 .price{
 	/*font-family: 'pf_agora_sans_problack';*/
