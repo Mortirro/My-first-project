@@ -1,29 +1,28 @@
 	body {
-	background: url('images/background.png');
-	font-family: 'robotoregular';
+	background: url('images/background.png');/*фоновое изображение*/
+	font-family: 'robotoregular'; /*Подключаемый шрифт*/
 }
 #container{
-  width: 960px;
-  margin: 0 auto;
-  text-align: center;
+  width: 960px;/*ширина блока*/
+  margin: 0 auto; /*отступ*/
+  text-align: center; /*Выравнивание текст*/
 }
 .item{
-	width: 225px;
-	display: inline-block;
-	vertical-align: top;
-	/*height: 445px;*/
-	margin: 10px 4px;
-	position: relative;
+	width: 225px;/*ширина блока*/
+	display: inline-block;/*определяет как документ должен отображатся в элементе:обтекается другими элементами веб-страницы подобно встроенному элементу*/
+	vertical-align: top; /*Выравнивает элемент по вертикали относительно своего родителя:Вверху*/
+	margin: 10px 4px;/*отступ*/
+	position: relative;/*способ позыцыонирования в окне браузера:относительно исходного положения*/
 }
 .image-box{
-	height: 225px;
-	overflow: hidden;
-	border-radius: 10px 10px 0 0;
-	background-color: #fff;
+	height: 225px;/*Высота блока изображения*/
+	overflow: hidden;/*отображение содержания блочного элемента:*/
+	border-radius: 10px 10px 0 0;/*Закругление углов*/
+	background-color: #fff;/*цвет фона*/
 }
 .item::after {
-	content: "";
-	position:absolute;
+	content: "";/*Добавляет*/
+	position:absolute;/*способ позицыонирования в окне браузера:абсолютная позиция*/
 	left: 50%;
 	bottom:0;
 	margin-left: -110px;
@@ -31,8 +30,8 @@
 	height:100px;
   background: #e0e0e0;
 	border: solid 0px #fff;
-	border-radius:25em/5em;
-	box-shadow: 0px 5px 10px 2px rgba(0,0,0, 0.1);
+	border-radius:25em/5em;/*суругление углов*/
+	box-shadow: 1px 5px 10px 2px rgba(0,0,0, 0.1);
  	z-index: 1;
 }
 	.item-inner {
@@ -40,7 +39,7 @@
 		z-index: 2;
 }
 .item img{
-	/*width: 100%;*/
+	width: 100%;
 	vertical-align:bottom;
 	border: 0px solid black;
 	border-bottom: 0;
@@ -55,8 +54,8 @@
 	position: relative;
 }
 .name{
-	height: 50px;
 	display: block;
+	height: 100px;/*Высота футера*/
 	width: 205px; /* Ширина */
 	overflow: hidden; /* Обрезаем все, что не помещается в область */
 	/*font-family: 'robotoregular';*/
