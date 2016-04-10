@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    $(".item .name").dotdotdot();
+    $(".item .name").dotdotdot({
+      wrap: 'word'
+    });
 });
