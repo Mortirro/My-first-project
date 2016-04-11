@@ -1,11 +1,11 @@
 	body {
-	height: 881px;
 	background: url('images/background.png');/*фоновое изображение*/
 	font-family: 'pf_agora_sans_problack'; /*Подключаемый шрифт*/
 	}
-#container{
+.container{
+	min-height: 880px;
   width: 1000px;/*ширина блока*/
-  margin: 72px auto; /*отступ*/
+  margin: 72px auto 0 auto; /*отступ*/
   text-align: center; /*Выравнивание текст*/
 }
 .item{
@@ -13,7 +13,7 @@
 	width: 225px;/*ширина блока*/
 	display: inline-block;/*определяет как документ должен отображатся в элементе:обтекается другими элементами веб-страницы подобно встроенному элементу*/
 	vertical-align: top; /*Выравнивает элемент по вертикали относительно своего родителя:Вверху*/
-	margin: 10px 4px;/*отступ*/
+	margin: 15px 6px;/*отступ*/
 	position: relative;/*способ позыцыонирования в окне браузера:относительно исходного положения*/
 }
 .image-box{
