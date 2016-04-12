@@ -1,11 +1,10 @@
 	body {
-	background: url('images/background.png');/*фоновое изображение*/
+	background: url('images/background3.png');/*фоновое изображение*/
 	font-family: 'pf_agora_sans_problack'; /*Подключаемый шрифт*/
 	}
 .container{
-	min-height: 880px;
   width: 1000px;/*ширина блока*/
-  margin: 72px auto 0 auto; /*отступ*/
+  margin: 72px auto 0; /*отступ*/
   text-align: center; /*Выравнивание текст*/
 }
 .item{
